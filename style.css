@@ -6,14 +6,7 @@ h2{
 h2.h0{
     text-align: center;
     background-image: linear-gradient(to right, red, yellow,red);
-    text-decoration: underline;
-}
-
-h2.h1{
-text-align: center;
-color:white;
-background-color: red;
-background-image: none;
+    text-decoration: underline red;
 }
 div.container0{
  background-color: skyblue;
@@ -33,22 +26,21 @@ div.item0{
 div.container1{
     background-color: limegreen;
     border: 1px groove darkgray;
-    height: 200px;
+    border-radius: 8px;
+    height: 130px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
 }
 div.item1{
     background-color: aqua;
     border-radius: 5px;
     border:2px groove darkgrey;
-    height: 90px;
-    width: 300px;
-  
+    height: 60px;
+    width: 350px;
+    margin: 0px 20px 0px 0px;
     font-size: small;
-    margin:0px 10px;
-  
 }
 div.container2{
     background-image:radial-gradient( blue,green 100%);
@@ -76,7 +68,7 @@ div.container3{
     width: 100%;
     grid-template-columns: 310px 310px 310px 120px;
     row-gap: 10px;
-    column-gap:20px ;
+    column-gap:10px ;
   
 }
 div.item3{
@@ -101,13 +93,12 @@ div.item5{
 }
 div.item7{
     background-color: black;
-    margin-left: 0px;
-    width: 120px;
+    width: 125px;
     height:5.5cm;
     color: white;
     font-size: small;
     grid-column: 4;
-    grid-row: 1 / span 2;
+    grid-row: 2 / span 3;
     
 }
 div.item6{
@@ -117,9 +108,20 @@ div.item6{
     grid-column-end: 4;
     color: white;
 }
+h2.h1{
+    text-align: center;
+    color:white;
+    background-color: red;
+    background-image: none;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    }
 h2.h3{
     background-color: aqua;
     background-image: none;
     grid-column-start: 1;
     grid-column-end: 5 ;
+    width: 100%;
 }
